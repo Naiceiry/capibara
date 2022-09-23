@@ -17,10 +17,3 @@ $ npm run start
 
 // https://chatwith.io/spain-link-whastapp acortador de enlaces
 
-
-Documentacion para uso
-
-1.- correo: capibaraportesymudanzas@gmail.com, Contraseña: jacko1234@
-2.- instagram : usuario  @Capibarainternacional , Contraseña: Capibara2022
-3.- facebook:
-4.- Linktre: capibarainternacional, Contraseña: Capibara2022
