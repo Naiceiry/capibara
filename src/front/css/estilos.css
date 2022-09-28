@@ -41,8 +41,8 @@ body {
     margin: 3%;
 }
 .logo{
-    height: 25%; 
-	width: 25%;
+    height: 22%; 
+	width: 22%;
 }
 .negritasubrayado {
     margin-top:100% ;
@@ -142,13 +142,14 @@ body {
 .footer{
     background-color:rgba(0, 0, 0, 0.89);
     align-items: center;
-    margin-top: -25%;
-    height: 11%;
+    height: 10%;
     padding: 0.3%;
+    margin-top: -23%;
+    
 }
 .footer ul {
     display: flex; 
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     padding: 0.5%;
     margin-left: 7%;
@@ -173,7 +174,7 @@ body {
     color: #3dff3e;
     border-bottom: 1px solid currentcolor;
 }
-.footerservicio {
+/* .footerservicio {
     background-color: rgba(0, 0, 0, 0.89);
     align-items: center;
     margin-top: -21%;
@@ -208,42 +209,16 @@ body {
 .footerservicio a:hover {
     color: #3dff3e;
     border-bottom: 1px solid currentcolor;
-}
-/*-------------------------------------------*/
-.footerpre{
-    background-color:rgba(0, 0, 0, 0.89);
-    align-items: center;
-    margin-top: 20%;
-    height: 11%;
-    padding: 0.3%;
-}
-.footerpre ul {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center;
-    padding: 0.5%;
-    margin-left: 7%;
-   
-}
-.footerpre li {
-    list-style: none;
-    display: inline-block;
-    align-items: center;
-    padding: 1;
+}*/
+
+.fpresup{
+    margin-top: 18%;
+    z-index: 200;
+    margin-left: auto ;
+     align-items: center;
+     justify-content: space-between;
 }
 
-.footerpre .logo { 
-    color:#3dff3e;
-}
-.footerpre a {
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-    transition: .5s ease;
-}
-.footerpre a:hover {
-    color: #3dff3e;
-    border-bottom: 1px solid currentcolor;
-}
 .contenido-descripcion {
     width: 40%;
     display: flex;
@@ -275,7 +250,7 @@ body {
     width: 100%;
     display:block;
     height: 40%; 
-    margin-top: 6%;
+    padding-top: 10%;
 }
 .checkbtn{
     font-size: 20px;
@@ -340,11 +315,11 @@ body{
     .imgservicios2 {
         display: none;
     }
-.footerpre{
-    margin-top:22%;
-   
-}
+    .footer {
+        padding: 0.3%;
+        margin-top: 20%;
 
+    }
   .btnsolicfin{
     display: flex;
     top: 70%;
@@ -369,33 +344,13 @@ body{
     margin-top: 8%;
 }
 .footer{
-    margin-top: -25%;
+    margin-top: 16%;
 }
 .footer .logo { 
     color:#3dff3e;
     width: 38%;
 }
-.footerpre{
-    margin-top: 25%;
-}
-.footerpre .logo { 
-    color:#3dff3e;
-    width: 38%;
-}
-.contenedor {
-	width: 90%;
-	max-width: 1200px;
-    background-size: cover;
-    background-color: rgb(255, 255, 255);
-    background-position:center;
-	margin-left: auto; 
-	margin-right: auto;
-    margin-top: 10px;
-    padding: 20px 30px;
-    position: relative;
-    z-index: 99;
-    opacity: .92;
-}
+
 body{
     font-size: 99%;
 }
@@ -412,54 +367,17 @@ body{
      margin-left: 2%;
     margin-right: 2%;
 }
-/*.barra-navegacion .lilogo { 
-    display: none;
-}*/
 }
-
 @media (max-width: 1000px){
-
-      .btnsolicfin{
+.btnsolicfin{
     display: flex;
     top: 70%;
     right: 3%;
     position:absolute
 }  
-.footer{
-    margin-top: -32%;
-}
-.footer .logo { 
-    color:#3dff3e;
-    width: 52%;
-}
-
-.footerpre{
-    margin-top: 25%;
-}
-.footerpre .logo { 
-    color:#3dff3e;
-    width: 52%;
-}
 .barra-navegacion .logoppl { 
     color:#3dff3e;
     width: 38%;
-}
-.contenedor {
-	width: 90%;
-	max-width: 1200px;
-    background-size: cover;
-    background-color: rgb(252, 252, 252);
-    background-position:center;
-	margin-left: auto; 
-	margin-right: auto;
-    margin-top: 10px;
-    padding: 20px 30px;
-    position: relative;
-    z-index: 99;
-    opacity: .92;
-}
-body{
-    font-size: 99%;
 }
 .fond{
     z-index: -1;
@@ -477,10 +395,10 @@ body{
 }
 @media (max-width: 920px){
 
-    .footerpre{
-    margin-top: 32%;
+.footer{
+    margin-top: 28%;
 }
-      .btnsolicfin{
+.btnsolicfin{
     display: flex;
     top: 70%;
     right: 3%;
@@ -488,10 +406,10 @@ body{
 }}
 @media (max-width: 830px){
 
-    .footerpre{
-    margin-top: 38%;
+.footer{
+    margin-top: 30%;
 }
-      .btnsolicfin{
+.btnsolicfin{
     display: flex;
     top: 70%;
     right: 3%;
@@ -499,7 +417,7 @@ body{
 }}
 @media (max-width: 720px){
 
-      .btnsolicfin{
+.btnsolicfin{
     display: flex;
     top: 70%;
     right: 3%;
@@ -529,16 +447,7 @@ body{
     width: 52%;
     margin-top: 10%;
 }
-.footerpre{
-    margin-top:20%;
-}
-.footerpre .logo { 
-    color:#3dff3e;
-    width: 52%;
-}
-    body{
-        font-size: 90%;
-    }
+
 
    .checkbtn{
         display: block;
@@ -679,38 +588,38 @@ body{
     width: 52%;
     margin-top: 10%;
 }
-/* .footerpre{
-    margin-top:30%;
+ .footerpre{
+    margin-top:58%;
 }
-.footerpre .logo { 
-    color:#3dff3e;
-    width: 62%;
-    margin-top: 10%;
-}
-.contenedor{
-    background-color: rgb(112, 241, 37)
-}
-} */}
+} }
 @media (max-width: 590px){
+.contenedor {
+        width:80%;
+        max-width: 1000px;
+        background-color: rgb(255, 255, 255);
+        background-position: center;
+        margin: auto;
+        padding: 20px 30px;
+        position: relative;
+        z-index: 99;
+        opacity: .90;
+        height: auto;
+      
+        overflow: auto;
+    }
+.logoc{
+    height: 22%;
+    width:22%;
+}
 
 .footer{
-    margin-top: 0.01%;
+    margin-top: 1%;
+    position:absolute
 }
 .footer .logo { 
     color:#3dff3e;
     width: 79%;
-    margin-top: 10%;
+   
 }
-/*.footerpre{
-    margin-top:28%;
-}
-.footer .logo { 
-    color:#3dff3e;
-    width: 79%;
-    margin-top: 10%;
-}
- .contenedor{
-    background-color: rgb(49, 18, 160)
-} */
 }
 
