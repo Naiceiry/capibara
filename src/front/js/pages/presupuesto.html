@@ -35,12 +35,12 @@
         <div class="formsolic">   
             <article class="description">
                     <h1>PRESUPUESTO</h1>
-                    <form name="Solicitud-Presupuesto"class="row g-3 needs-validation" method="post" netlify>
+                    <form name="Solicitud-Presupuesto" netlify>
                         <input type="hidden" name="Solicitud-presupuuesto" value="Soliciyud-Presupuesto">
                         <span class="negritasubrayado dc">_Datos de contacto_</span>
                             <div class="col-md-4">
                                 <input type="text" id="Nombre" name="Nombre" value="Nombre" required>
-                                <input type="text" id="Email" name="Email" value="Email" aria-describedby="inputGroupPrepend" required>
+                                <input type="text" id="Email" name="Email" value="Email" required>
                                 <input type="text" id="Telefono"  name="Telefono" value="Telefono">
                             </div><br>
                             <div class="mudanza">
@@ -60,7 +60,7 @@
                                         <option selected disabled value="Poblacion">Poblacion...</option>
                                         <option>...</option>
                                     </select> -->
-                                    <select class="form-select" id="validationCustom04" value="Ascensor" name="Ascensor" required>
+                                    <select class="form-select" id="Ascensor" value="Ascensor" name="Ascensor" required>
                                         <option selected disabled value="Ascensor">Ascensor...</option>
                                         <option>SI</option>
                                         <option>NO</option>
@@ -70,10 +70,10 @@
                                 <div class="col-md-3">
                                     <span class="negritasubrayado">Destino</span>
                                     <br>
-                                    <input type="text" class="form-control" id="Pais2" name="Pais2" value="Pais" required>
-                                    <input type="text" class="form-control" id="Provincia2" value="Provincia" name="Provincia2" required><br>
-                                    <input type="text" class="form-control" id="Ciudad2" name="Ciudad2" value="Ciudad2" required>
-                                    <input type="text" class="form-control" id="CodigoPostal2" name="CodigoPostal2" value="Codigo Postal" required><br>
+                                    <input type="text" id="Pais2" name="Pais2" value="Pais" required>
+                                    <input type="text" id="Provincia2" value="Provincia" name="Provincia" required><br>
+                                    <input type="text" id="Ciudad2" name="Ciudad2" value="Ciudad" required>
+                                    <input type="text" id="CodigoPostal2" name="CodigoPostal2" value="Codigo Postal" required><br>
                                     <!-- <select class="form-select" id="validationCustom04" value="Provincia" required>
                                         <option selected disabled value="Provincia">Provincia...</option>
                                         <option>...</option>
@@ -82,7 +82,7 @@
                                         <option selected disabled value="Poblacion">Poblacion...</option>
                                         <option>...</option>
                                     </select> -->
-                                    <select class="form-select" id="validationCustom04" value="Ascensor2" name="Ascensor2" required>
+                                    <select class="form-select" id="Ascensor2" value="Ascensor2" name="Ascensor2" required>
                                         <option selected disabled value="Ascensor">Ascensor...</option>
                                         <option>SI</option>
                                         <option>NO</option>
@@ -93,20 +93,17 @@
                                     <div class="ancho-dos izquierda">
                                         <div class="fila-uno">
                                             <span class="wpcf7-form-control-wrap" data-name="fecha">
-                                                <input type="date" name="fecha"
-                                                    value="" class="wpcf7-form-control wpcf7-date wpcf7-validates-as-date" aria-invalid="false"
-                                                    placeholder="dd/mm/aaaa">
+                                                <input type="date" name="fecha" >
                                             </span>
                                         </div>
                                     </div>   
                                 </div>
                              <br>
                             </div> <br>
-                        <textarea name="Descripcion" cols="40" rows="4" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
-                            aria-required="true" aria-invalid="false" placeholder="Describe brevemente tu mudanza."></textarea>
+                        <textarea name="Descripcion" id="Descripcion" cols="40" rows="4" placeholder="Describe brevemente tu mudanza."></textarea>
 
                     <div class="fila-uno aceptar">
-                        <input type="checkbox" name="acceptance-989" value="1" aria-invalid="false">
+                        <input type="checkbox" name="Ceptacion de LOPD" value="1" aria-invalid="false">
                         <p>He leído y acepto las reglas de su uso así como nuestra</p> 
                         <a target="_blank" href="lopd.html" >Politica de proteccion de datos</a>
                     </div>
