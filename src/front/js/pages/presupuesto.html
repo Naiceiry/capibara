@@ -24,7 +24,7 @@
                 <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
                 <!-- recomendaciones, aviso legal, politicas de provacidad, cookies**// -->
                 <li><a href="presupuesto.html">Presupuesto</a></li>
-                <li><a href="index.html" class="lilogo"><img src="../../img/logo.jpeg" class="logoppl"></a></li>
+                <li><a href="../../../index.html" class="lilogo"><img src="../../img/logo.jpeg" class="logoppl"></a></li>
                 <li><a href="servicios.html">Servicios</a></li>
                 <!--//*guarda muebles -->
                 <li><a href="contacto.html">Contacto</a></li>
@@ -35,22 +35,23 @@
         <div class="formsolic">   
             <article class="description">
                     <h1>PRESUPUESTO</h1>
-                    <form class="row g-3 needs-validation"  action="send.py" method="post" enctype="text/plain">
+                    <form name="Solicitud-Presupuesto"class="row g-3 needs-validation" method="post" netlify>
+                        <input type="hidden" name="Solicitud-presupuuesto" value="Soliciyud-Presupuesto">
                         <span class="negritasubrayado dc">_Datos de contacto_</span>
                             <div class="col-md-4">
-                                <input type="text" class="form-control" id="Nombre" value="Nombre" required>
-                                <input type="text" class="form-control" id="correo" value="correo" aria-describedby="inputGroupPrepend" required>
-                                <input type="text" class="form-control" id="Telefono" value="Telefono">
+                                <input type="text" id="Nombre" name="Nombre" value="Nombre" required>
+                                <input type="text" id="Email" name="Email" value="Email" aria-describedby="inputGroupPrepend" required>
+                                <input type="text" id="Telefono"  name="Telefono" value="Telefono">
                             </div><br>
                             <div class="mudanza">
                                 <br>
                                 <div class="col-md-3">
                                     <span class="negritasubrayado">Origen</span>
                                     <br>
-                                    <input type="text" class="form-control" id="Pais" value="Pais" required>
-                                    <input type="text" class="form-control" id="Provincia" value="Provincia" required><br>
-                                    <input type="text" class="form-control" id="Ciudad" value="Ciudad" required>
-                                    <input type="text" class="form-control" id="CodigoPostal" value="Codigo Postal" required><br>
+                                    <input type="text" id="Pais" name="Pais" value="Pais" required>
+                                    <input type="text" id="Provincia" value="Provincia" name="Provincia" required><br>
+                                    <input type="text" id="Ciudad" name="Ciudad" value="Ciudad" required>
+                                    <input type="text" id="CodigoPostal" name="CodigoPostal" value="Codigo Postal" required><br>
                                     <!-- <select class="form-select" id="validationCustom04" value="Provincia" required>
                                         <option selected disabled value="Provincia">Provincia...</option>
                                         <option>...</option>
@@ -59,7 +60,7 @@
                                         <option selected disabled value="Poblacion">Poblacion...</option>
                                         <option>...</option>
                                     </select> -->
-                                    <select class="form-select" id="validationCustom04" value="Ascensor" required>
+                                    <select class="form-select" id="validationCustom04" value="Ascensor" name="Ascensor" required>
                                         <option selected disabled value="Ascensor">Ascensor...</option>
                                         <option>SI</option>
                                         <option>NO</option>
@@ -69,10 +70,10 @@
                                 <div class="col-md-3">
                                     <span class="negritasubrayado">Destino</span>
                                     <br>
-                                    <input type="text" class="form-control" id="validationCustom01" value="Pais" required>
-                                    <input type="text" class="form-control" id="validationCustom01" value="Provincia" required><br>
-                                    <input type="text" class="form-control" id="validationCustom01" value="Ciudad" required>
-                                    <input type="text" class="form-control" id="validationCustom01" value="Codigo Postal" required><br>
+                                    <input type="text" class="form-control" id="Pais2" name="Pais2" value="Pais" required>
+                                    <input type="text" class="form-control" id="Provincia2" value="Provincia" name="Provincia2" required><br>
+                                    <input type="text" class="form-control" id="Ciudad2" name="Ciudad2" value="Ciudad2" required>
+                                    <input type="text" class="form-control" id="CodigoPostal2" name="CodigoPostal2" value="Codigo Postal" required><br>
                                     <!-- <select class="form-select" id="validationCustom04" value="Provincia" required>
                                         <option selected disabled value="Provincia">Provincia...</option>
                                         <option>...</option>
@@ -81,7 +82,7 @@
                                         <option selected disabled value="Poblacion">Poblacion...</option>
                                         <option>...</option>
                                     </select> -->
-                                    <select class="form-select" id="validationCustom04" value="Ascensor" required>
+                                    <select class="form-select" id="validationCustom04" value="Ascensor2" name="Ascensor2" required>
                                         <option selected disabled value="Ascensor">Ascensor...</option>
                                         <option>SI</option>
                                         <option>NO</option>
@@ -101,20 +102,18 @@
                                 </div>
                              <br>
                             </div> <br>
-                        <textarea name="Describe" cols="40" rows="4" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
+                        <textarea name="Descripcion" cols="40" rows="4" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required"
                             aria-required="true" aria-invalid="false" placeholder="Describe brevemente tu mudanza."></textarea>
 
                     <div class="fila-uno aceptar">
                         <input type="checkbox" name="acceptance-989" value="1" aria-invalid="false">
                         <p>He leído y acepto las reglas de su uso así como nuestra</p> 
-                        <a target="_blank" href="lopd.html">Politica de proteccion de datos</a>
+                        <a target="_blank" href="lopd.html" >Politica de proteccion de datos</a>
                     </div>
-                    <div class="btnsolicfin">
-                        <input type="submit" value="Solicitar presupuesto" class="btn-link">
-                        <span class="wpcf7-spinner"></span>
-                    </div>
-
-                            
+                 <div class="btnsolicfin">
+                    <input type="submit" value="Solicitar presupuesto" class="btn-link">
+                    <span class="wpcf7-spinner"></span>
+                </div>
                 </form>
             </article>
         </div>
