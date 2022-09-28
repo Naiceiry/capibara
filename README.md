@@ -17,4 +17,7 @@ $ npm run start
 
 // https://chatwith.io/spain-link-whastapp acortador de enlaces
 
+<<<<<<< HEAD
 https://www.youtube.com/watch?v=zXMcoTRTswQ
+=======
+>>>>>>> 898bd3981e6e0e6f5ac7958b37c16877ba6555a9
