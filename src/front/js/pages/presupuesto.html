@@ -35,8 +35,8 @@
         <div class="formsolic">   
             <article class="description">
                     <h1>PRESUPUESTO</h1>
-                    <form name="Solicitud-Presupuesto" netlify>
-                        <input type="hidden" name="Solicitud-presupuuesto" value="Soliciyud-Presupuesto">
+                    <form action="https://formsubmit.co/capibaraportesymudanzas@gmail.com" method="POST" name="Solicitud-Presupuesto">
+                        <input type="hidden" name="Solicitud-presupuesto" value="Soliciyud-Presupuesto">
                         <span class="negritasubrayado dc">_Datos de contacto_</span>
                             <div class="col-md-4">
                                 <input type="text" id="Nombre" name="Nombre" value="Nombre" required>
@@ -110,6 +110,9 @@
                  <div class="btnsolicfin">
                     <input type="submit" value="Solicitar presupuesto" class="btn-link">
                     <span class="wpcf7-spinner"></span>
+                    <input type="hidden" name="_captcha" value="false" /> 
+                    <input type="hidden" name="_next" value="https://capibarainternacional.netlify.app/front/js/pages/gracias.html">
+                    <input type="hidden" name="_subject" value="¡Capibara tiene una Nueva Solicitud de Presupuesto!">
                 </div>
                 </form>
             </article>

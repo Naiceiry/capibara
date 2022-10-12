@@ -3,6 +3,16 @@
     padding: 0; 
  /* box-sizing: border-box; */
 }
+.gracias{
+    padding: 1%;
+    margin: auto;
+
+}
+.gracias img{
+    margin:auto;
+    display: flex;
+}
+
 .fond2{
    display: none;
    z-index: 1;
@@ -144,7 +154,6 @@ body {
     height: 10%;
     padding: 0.3%;
     margin-top: -26%;
-    
 }
 .footer ul {
     display: flex; 
@@ -179,6 +188,10 @@ body {
     margin-left: auto ;
      align-items: center;
      justify-content: space-between;
+}
+.fpresupg {
+    margin-top: 2%;
+
 }
 .contenido-descripcion {
     width: 40%;
