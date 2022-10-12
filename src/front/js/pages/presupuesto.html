@@ -39,7 +39,7 @@
                         <input type="hidden" name="Solicitud-presupuesto" value="Soliciyud-Presupuesto">
                         <span class="negritasubrayado dc">_Datos de contacto_</span>
                             <div class="col-md-4">
-                                <input type="text" id="Nombre" name="Nombre" value="Nombre" required>
+                                <input type="text" id="Nombre" name="Nombre" value="Nombre" required autofocus>
                                 <input type="text" id="Email" name="Email" value="Email" required>
                                 <input type="text" id="Telefono"  name="Telefono" value="Telefono">
                             </div><br>
@@ -48,7 +48,24 @@
                                 <div class="col-md-3">
                                     <span class="negritasubrayado">Origen</span>
                                     <br>
-                                    <input type="text" id="Pais" name="Pais" value="Pais" required>
+                                    <select class="form-select" id="pais" value="Pais Origen" name="pais" required>
+                                        <option selected disabled value="Pais Origen">Seleccione</option>
+                                        <option>España</option>
+                                        <option>Alemania</option>
+                                        <option>Francia</option>
+                                        <option>Italia</option>
+                                        <option>Rumania</option>
+                                        <option>Países Bajos</option>
+                                        <option>Grecia</option>
+                                        <option>Bélgica</option>
+                                        <option>Portugal</option>
+                                        <option>Suecia</option>
+                                        <option>Austria</option>
+                                        <option>Suiza</option>
+                                        <option>Otro</option>
+                                         
+                                    </select>
+
                                     <input type="text" id="Provincia" value="Provincia" name="Provincia" required><br>
                                     <input type="text" id="Ciudad" name="Ciudad" value="Ciudad" required>
                                     <input type="text" id="CodigoPostal" name="CodigoPostal" value="Codigo Postal" required><br>
@@ -70,7 +87,22 @@
                                 <div class="col-md-3">
                                     <span class="negritasubrayado">Destino</span>
                                     <br>
-                                    <input type="text" id="Pais2" name="Pais2" value="Pais" required>
+                                    <select class="form-select" id="pais2" value="Pais Destino" name="pais2" required>
+                                        <option selected disabled value="Pais Destino">Seleccione</option>
+                                        <option>España</option>
+                                        <option>Alemania</option>
+                                        <option>Francia</option>
+                                        <option>Italia</option>
+                                        <option>Rumania</option>
+                                        <option>Países Bajos</option>
+                                        <option>Grecia</option>
+                                        <option>Bélgica</option>
+                                        <option>Portugal</option>
+                                        <option>Suecia</option>
+                                        <option>Austria</option>
+                                        <option>Suiza</option>
+                                        <option>Otro</option>
+                                    </select>
                                     <input type="text" id="Provincia2" value="Provincia" name="Provincia" required><br>
                                     <input type="text" id="Ciudad2" name="Ciudad2" value="Ciudad" required>
                                     <input type="text" id="CodigoPostal2" name="CodigoPostal2" value="Codigo Postal" required><br>
