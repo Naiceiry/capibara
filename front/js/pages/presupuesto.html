@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Capibara. Portes y Mudanzas</title>
+    <link rel="stylesheet" href="../../css/estilos.css">    
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- ID Particles.js -->
+    <div id="particles-js"></div>
+    <header class="contenedor header">
+        <img src="../../img/bg-header3.jpeg" class="fond">
+        <img src="../../img/bg-header5.jpeg" class="fond2">
+        <!-- Barra de navegación -->
+        <nav class="barra-navegacion">
+            <input type="checkbox" id="check" />
+            <label for="check" class="checkbtn">
+                <img src="../../img/ham.png" alt="">
+            </label>
+            <ul>
+                <li><a href="sobrenosotros.html">Sobre Nosotros</a></li>
+                <!-- recomendaciones, aviso legal, politicas de provacidad, cookies**// -->
+                <li><a href="presupuesto.html">Presupuesto</a></li>
+                <li><a href="../../../index.html" class="lilogo"><img src="../../img/logo.jpeg" class="logoppl"></a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <!--//*guarda muebles -->
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <!-- Título y descripción -->
+        <div class="formsolic">   
+            <article class="description">
+                    <h1>PRESUPUESTO</h1>
+                    <form action="https://formsubmit.co/capibaraportesymudanzas@gmail.com" method="POST" name="Solicitud-Presupuesto">
+                        <input type="hidden" name="Solicitud-presupuesto" value="Soliciyud-Presupuesto">
+                        <span class="negritasubrayado dc">_Datos de contacto_</span>
+                            <div class="col-md-4">
+                                <input type="text" id="Nombre" name="Nombre" value="Nombre" required autofocus>
+                                <input type="text" id="Email" name="Email" value="Email" required>
+                                <input type="text" id="Telefono"  name="Telefono" value="Telefono">
+                            </div><br>
+                            <div class="mudanza">
+                                <br>
+                                <div class="col-md-3">
+                                    <span class="negritasubrayado">Origen</span>
+                                    <br>
+                                    <select class="form-select" id="pais" value="Pais Origen" name="pais" required>
+                                        <option selected disabled value="Pais Origen">Seleccione</option>
+                                        <option>España</option>
+                                        <option>Alemania</option>
+                                        <option>Francia</option>
+                                        <option>Italia</option>
+                                        <option>Rumania</option>
+                                        <option>Países Bajos</option>
+                                        <option>Grecia</option>
+                                        <option>Bélgica</option>
+                                        <option>Portugal</option>
+                                        <option>Suecia</option>
+                                        <option>Austria</option>
+                                        <option>Suiza</option>
+                                        <option>Otro</option>
+                                         
+                                    </select>
+
+                                    <input type="text" id="Provincia" value="Provincia" name="Provincia" required><br>
+                                    <input type="text" id="Ciudad" name="Ciudad" value="Ciudad" required>
+                                    <input type="text" id="CodigoPostal" name="CodigoPostal" value="Codigo Postal" required><br>
+                                    <!-- <select class="form-select" id="validationCustom04" value="Provincia" required>
+                                        <option selected disabled value="Provincia">Provincia...</option>
+                                        <option>...</option>
+                                    </select>
+                                    <select class="form-select" id="validationCustom04" value="Poblacion" required>
+                                        <option selected disabled value="Poblacion">Poblacion...</option>
+                                        <option>...</option>
+                                    </select> -->
+                                    <select class="form-select" id="Ascensor" value="Ascensor" name="Ascensor" required>
+                                        <option selected disabled value="Ascensor">Ascensor...</option>
+                                        <option>SI</option>
+                                        <option>NO</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="col-md-3">
+                                    <span class="negritasubrayado">Destino</span>
+                                    <br>
+                                    <select class="form-select" id="pais2" value="Pais Destino" name="pais2" required>
+                                        <option selected disabled value="Pais Destino">Seleccione</option>
+                                        <option>España</option>
+                                        <option>Alemania</option>
+                                        <option>Francia</option>
+                                        <option>Italia</option>
+                                        <option>Rumania</option>
+                                        <option>Países Bajos</option>
+                                        <option>Grecia</option>
+                                        <option>Bélgica</option>
+                                        <option>Portugal</option>
+                                        <option>Suecia</option>
+                                        <option>Austria</option>
+                                        <option>Suiza</option>
+                                        <option>Otro</option>
+                                    </select>
+                                    <input type="text" id="Provincia2" value="Provincia" name="Provincia" required><br>
+                                    <input type="text" id="Ciudad2" name="Ciudad2" value="Ciudad" required>
+                                    <input type="text" id="CodigoPostal2" name="CodigoPostal2" value="Codigo Postal" required><br>
+                                    <!-- <select class="form-select" id="validationCustom04" value="Provincia" required>
+                                        <option selected disabled value="Provincia">Provincia...</option>
+                                        <option>...</option>
+                                    </select>
+                                    <select class="form-select" id="validationCustom04" value="Poblacion" required>
+                                        <option selected disabled value="Poblacion">Poblacion...</option>
+                                        <option>...</option>
+                                    </select> -->
+                                    <select class="form-select" id="Ascensor2" value="Ascensor2" name="Ascensor2" required>
+                                        <option selected disabled value="Ascensor">Ascensor...</option>
+                                        <option>SI</option>
+                                        <option>NO</option>
+                                    </select>
+                                </div>
+                                <div class="fila-uno">
+                                    <span  class="negritasubrayado">Fecha Prevista </span>
+                                    <div class="ancho-dos izquierda">
+                                        <div class="fila-uno">
+                                            <span class="wpcf7-form-control-wrap" data-name="fecha">
+                                                <input type="date" name="fecha" >
+                                            </span>
+                                        </div>
+                                    </div>   
+                                </div>
+                             <br>
+                            </div> <br>
+                        <textarea name="Descripcion" id="Descripcion" cols="40" rows="4" placeholder="Describe brevemente tu mudanza."></textarea>
+
+                    <div class="fila-uno aceptar">
+                        <input type="checkbox" name="Ceptacion de LOPD" value="1" aria-invalid="false" required>
+                        <p>He leído y acepto las reglas de su uso así como nuestra</p> 
+                        <a target="_blank" href="lopd.html" >Politica de proteccion de datos</a>
+                    </div>
+                 <div class="btnsolicfin">
+                    <input type="submit" value="Solicitar presupuesto" class="btn-link">
+                    <span class="wpcf7-spinner"></span>
+                    <input type="hidden" name="_captcha" value="false" /> 
+                    <input type="hidden" name="_next" value="https://capibarainternacional.netlify.app/front/js/pages/gracias.html">
+                    <input type="hidden" name="_subject" value="¡Capibara tiene una Nueva Solicitud de Presupuesto!">
+                </div>
+                </form>
+            </article>
+        </div>
+    <div class="footer fpresup">
+        <ul>
+            <li><a target="_blank" href="https://api.whatsapp.com/send?phone=+34698243334"><img src="../../img/wsapp.png"
+                        class="logo"></a></li>
+            <li><a target="_blank" href="https://instagram.com/capibarainternacional?igshid=YmMyMTA2M2Y="><img
+                        src="../../img/insta.png" class="logo"></a></li>
+            <li><a target="_blank" href="index.html"><img src="../../img/capi.png" class="logocapi"></a></li>
+            <li><a target="_blank" href="#"><img src="../../img/face.png" class="logo"></a></li>
+            <li><a target="_blank" href="mailto:capibaraportesymudanzas@gmail.com"><img src="../../img/correo.png"
+                        class="logo"></a></li>
+        </ul>
+    </div>
+    </header>
+    
+    <!-- JS Particles.js -->
+    <script src="../particles.min.js"></script>
+    <script src="../app.js"></script>
+    
+    <!-- JS FontAwesome -->
+    <script src="https://kit.fontawesome.com/a2e8d0339c.js"></script>
+</body>
+</html>
